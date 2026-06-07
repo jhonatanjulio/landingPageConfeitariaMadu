@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Madu: Confeitaria Artesanal</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbarConf" class="navbar navbar-expand-lg">
+            <div class="container-fluid d-flex justify-content-center">
+                <a id="ancoraImg" class="navbar-brand d-flex justify-content-center" href="#">
+                    <img id="logo" src="./img/logo-madu.png"
+                        alt="Logo da Confeitaria Madu, chapéu de chef e tipografia Madu">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarNav" class="collapse navbar-collapse justify-content-around">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Doces</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre mim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container d-flex align-items-center justify-content-around flex-wrap">
+        <div class="content col-md-6 col-12">
+            <h1>Madu: Confeitaria Artesanal</h1>
+            <p>Feito com cuidado. Sentido em cada mordida.</p>
+            <p>Brownie encorpado, Palha Italiana cremosa e Surpresa de Uva com um toque surpreendente. Cada receita é
+                desenvolvida com ingredientes selecionados e atenção aos detalhes, do preparo à entrega. Artesanal de
+                verdade. Sem atalhos.</p>
+        </div>
+        <img id="logo-main" class="img-fluid col-md-6 col-12" src="./img/chapeu.png"
+            alt="Logo confeitaria Madu, apenas o chapéu de chef">
+    </main>
+
+    <section class="mais-vendidos">
+        <div class="container">
+            <h2 class="h2-mais-vendidos">Mais vendidos</h2>
+            <div class="line-cards">
+                <div class="card">
+                    <h3 class="h3-brownie">Brownie</h3>
+                    <div class="img-card img-brownie">
+                    </div>
+                    <a class="btn-cta" href="#">Eu quero!</a>
+                </div>
+                <div class="card">
+                    <h3 class="h3-brownie">Palha Italiana</h3>
+                    <div class="img-card img-palha">
+                    </div>
+                    <a class="btn-cta" href="#">Eu quero!</a>
+                </div>
+                <div class="card">
+                    <h3 class="h3-brownie">Surpresa de Uva</h3>
+                    <div class="img-card img-surpresa">
+                    </div>
+                    <a class="btn-cta" href="#">Eu quero!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pascoa">
+        <div class="container">
+            <h2 class="h2-pascoa">Páscoa</h2>
+            <div class="line-cards">
+                <div class="card-pascoa">
+                    <h3 class="h3-pascoa">Ninho com Nutella</h3>
+                    <div class="img-card img-ninho">
+                    </div>
+                    <a class="btn-cta btn-cta-pascoa" href="#">Eu quero!</a>
+                </div>
+                <div class="card-pascoa">
+                    <h3 class="h3-pascoa">Ferrero</h3>
+                    <div class="img-card img-ferrero">
+                    </div>
+                    <a class="btn-cta btn-cta-pascoa" href="#">Eu quero!</a>
+                </div>
+                <div class="card-pascoa">
+                    <h3 class="h3-pascoa">Limão com Framboesa</h3>
+                    <div class="img-card img-limao">
+                    </div>
+                    <a class="btn-cta btn-cta-pascoa" href="#">Eu quero!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="natal">
+        <div class="container">
+            <h2 class="h2-natal">Natal</h2>
+            <div class="line-cards">
+                <div class="card-natal">
+                    <h3 class="h3-natal">Guirlanda de Brownie</h3>
+                    <div class="img-card img-guirlanda">
+                    </div>
+                    <a class="btn-cta" href="#">Eu quero!</a>
+                </div>
+                <div class="card-natal">
+                    <h3 class="h3-natal">Cookies</h3>
+                    <div class="img-card img-cookies">
+                    </div>
+                    <a class="btn-cta" href="#">Eu quero!</a>
+                </div>
+                <div class="card-natal">
+                    <h3 class="h3-natal">Brownietone</h3>
+                    <div class="img-card img-brownietone">
+                    </div>
+                    <a class="btn-cta" href="#">Eu quero!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre">
+        <div class="container">
+            <div class="line-sobre">
+                <div class="texto-sobre">
+                    <h2 id="h2-sobre">Sobre mim</h2>
+                    <p>Me chamo Madu, e foi daí que veio tudo, inclusive o nome da confeitaria. Comecei na cozinha por curiosidade, sem grandes planos. A primeira receita virou paixão, e a paixão virou negócio. Tudo começou vendendo Palha Italiana na escola. Hoje, há quase dois anos, faço cada doce com as próprias mãos, do preparo à entrega, para pessoas de todas as idades e histórias.</p>
+                    <p id="cta-sobre">
+                        Quer experimentar? Acesse nosso Instagram para conhecer o cardápio e fazer sua encomenda.
+                    </p>
+                    <a class="btn-cta-sobre" href="https://www.instagram.com/confeitariamadu/">
+                        <p>
+                            Visitar
+                        </p>
+                        <img src="./img/icone-instagram.png" alt="Ícone do Instagram">
+                    </a>
+                </div>
+                <img class="instagram" src="./img/instagram.jpg" alt="Foto da página do instagram Madu: Confeitaria Artesanal">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            Madu: Confeitaria Artesanal | Todos os direitos reservados &copy; 2026
+        </p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
