@@ -338,6 +338,8 @@ main > div > p {
 footer {
     display: flex;
     justify-content: center;
+    gap: 1vw;
+    align-items: center;
     box-shadow: 0px -7px 0px 0px #502109;
     background-color: #a55c1d;
     border-radius: 20px 20px 0 0;
@@ -347,6 +349,10 @@ footer {
 footer > p {
     color: #fde5c0;
     margin: 0;
+}
+
+footer > a > img {
+    width: 2vw;
 }
 
 @media (max-width: 767px) {
@@ -373,7 +379,7 @@ footer > p {
         width: 40vw;
     }
 
-    .card:hover, .card-pascoa:hover, .card-natal {
+    .card:hover, .card-pascoa:hover, .card-natal:hover {
         width: 50.5vw;
         height: 40.5vh;
     }
@@ -385,6 +391,10 @@ footer > p {
     .instagram {
         width: 30vw;
         order: 1;
+    }
+
+    .instagram:hover {
+        width: 30.1vw;
     }
 
     .line-sobre {
